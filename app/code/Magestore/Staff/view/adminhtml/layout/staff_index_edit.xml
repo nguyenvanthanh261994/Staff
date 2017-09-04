@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  layout ="admin-2columns-left"
+xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configur
+ation.xsd">
+	<update handle="editor" />
+	<body>
+		<referenceContainer name="left">
+			<block class="Magestore\Staff\Block\Adminhtml\Staff\Edit\Tabs" name="Magestore_Staff.edit.tabs" />
+		</referenceContainer>
+		<referenceContainer name="content">
+			<block class="Magestore\Staff\Block\Adminhtml\Staff\Edit" name="Magestore_Staff.edit" />
+ 		</referenceContainer>
+	</body>
+</page>
